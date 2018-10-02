@@ -17,7 +17,7 @@
             margin-bottom: 20px;        /* 아래 요소들과의 간격(마진) */
             border : 1px solid #ccc;     
         }
-        
+      
         #news {
             width: 150px;
             float: left;
