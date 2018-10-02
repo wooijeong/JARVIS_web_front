@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <title>2단 레이아웃</title>
     <style>
-       
         #container {
             width: 960px;       /* 컨테이너 너비 */
             padding: 20px;      /* 패딩 */
             margin: 0 auto;     /* 화면 중앙에 배치 */
             border : 1px solid #ccc;     /* 요소에 테두리 표시 */
         }
+        
         #header {
             padding: 20px;              /* 패딩*/
             margin-bottom: 20px;        /* 아래 요소들과의 간격(마진) */
@@ -37,14 +37,15 @@
             float: left;
             margin-bottom: 20px;
         }
-
         
         #footer {
             clear:both;      /* 양쪽 플로팅 해제*/
             padding: 20px;    /* 패딩 */
             border : 1px solid #ccc;  
         }
+        
     </style>
+    
 </head>
 <body>
 
