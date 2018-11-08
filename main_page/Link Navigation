@@ -3,11 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <title> 자비스 </title>
-
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400i|Bangers|Oleo+Script+Swash+Caps" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400i|Bangers|Oleo+Script+Swash+Caps|Open+Sans:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
-
     <style>
 
         body {
@@ -109,43 +104,10 @@
                 left: 100%;
                 top: 0;
             }
-            
-        header {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: 'Bangers', cursive;
-            font-size: 80pt;
-        }
-
-        #small {
-            font-family: 'Song Myung', serif;
-            font-size: 15pt;
-            text-align: center;
-        }
-
-        #container {
-            float: left;
-        }
-
-        #login {
-            float: right;
-            background-color: #fff;
-            font-color: #000000;
-        }
-
-        footer {
-            font-family: font-family: 'Open Sans', sans-serif;
-            width: 100%;
-            background-color: #f6eded;
-            border: 3px solid#808080;
-            text-align: center;
-            line-height: 200px height: 200px;
-            font-size: 80%;
-        }
+          
     </style>
 
 </head>
-
 
 <body>
 
@@ -210,58 +172,5 @@
         </ul>
     </nav>
 
-    <header>
-        <div id="header container">
-            <div id="container">
-                <div style="text-align:center">
-                    <br /><br />
-                    JARVIS
-                </div>
-
-                <div id="small">
-                    안녕하세요, 주인님. <br /><br /><br /><br />
-                </div>
-            </div>
-
-            <div id="login">
-                여기는 로그인 창 <br /><br />
-                <h1>
-
-                </h1>
-            </div>
-
-        </div>
-    </header>
-
-
-
-
-    <section></section>
-
-
-    <footer>
-
-        <div id="footer_wrap" class="div-wrap">
-            <div id="footer" class="div-cont">
-
-                <div id="fcopyright">
-                    <em> <br /><br />JARVIS</em>&nbsp;&nbsp;
-                    <address>
-                        52828
-                        경남 진주시 진주대로 501 경상대학교  공과대학 407동
-                    </address>
-                    <p class="tel">
-                        TEL. 010-xxxx-xxxx
-                        &nbsp;&nbsp;&nbsp;E-mail. kakired121@naver.com
-                    </p>
-                    <p class="copyright"> Copyright@GNU All rights Reserved  <br /> <br /><br /></p>
-                </div>
-            </div>
-        </div>
-
-
-
-
-    </footer>
 </body>
 </html>
