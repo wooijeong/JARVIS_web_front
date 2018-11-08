@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> 자비스 </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400i|Bangers|Oleo+Script+Swash+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400i|Bangers|Oleo+Script+Swash+Caps|Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+
+    <style>
+
+        body {
+            overflow-x: hidden
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        .nav_wrapper {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background: #2f3b3f;
+        }
+
+        .menu {
+            width: 100%;
+            height: auto;
+            background: #2f3b3f;
+        }
+
+            .menu ul {
+                padding: 0px;
+                margin: 0px;
+                list-style: none;
+                position: relative;
+                display: inline-block;
+            }
+
+            .menu > li > ul.sub_menu {
+                min-width: 10em;
+                padding: 4px 0;
+                background-color: #f4f4f4;
+                border: 1px solid #fff;
+            }
+
+            .menu ul li {
+                padding: 0px;
+            }
+
+            .menu > ul > li {
+                display: inline-block;
+            }
+
+            .menu ul li a {
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                font-size: 14px;
+            }
+
+                .menu ul li a:hover {
+                    background: #efa666;
+                    color: #fff;
+                    transition: all .5s ease-out;
+                }
+
+            .menu ul li.hover > a {
+                background: #efa666;
+                color: #fff;
+            }
+
+            .menu ul li > a {
+                padding: 15px;
+            }
+
+            .menu ul ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                min-width: 160px;
+                background: #39484d;
+            }
+
+            .menu ul li:hover > ul {
+                display: block;
+            }
+
+            .menu ul ul > li {
+                position: relative;
+            }
+
+                .menu ul ul > li a {
+                    padding: 10px 15px;
+                    height: auto;
+                    background: #39484d;
+                }
+
+                    .menu ul ul > li a:hover {
+                        background: #efa666;
+                        color: #fff;
+                    }
+
+            .menu ul ul ul {
+                position: absolute;
+                left: 100%;
+                top: 0;
+            }
+            
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Bangers', cursive;
+            font-size: 80pt;
+        }
+
+        #small {
+            font-family: 'Song Myung', serif;
+            font-size: 15pt;
+            text-align: center;
+        }
+
+        #container {
+            float: left;
+        }
+
+        #login {
+            float: right;
+            background-color: #fff;
+            font-color: #000000;
+        }
+
+        footer {
+            font-family: font-family: 'Open Sans', sans-serif;
+            width: 100%;
+            background-color: #f6eded;
+            border: 3px solid#808080;
+            text-align: center;
+            line-height: 200px height: 200px;
+            font-size: 80%;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <nav class="menu">
+
+        <ul>
+            <li><a href="#Link" title="Link">HOME</a>
+            <li>
+                <a href="#Link" title="Link">NOTICE</a>
+                <ul>
+                    <li>
+                        <a href="#Link" title="Link">Link » </a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Link" title="Link">HISTORY</a></li>
+                    <li>
+                        <a href="#Link" title="Link">Link » </a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#Link" title="Link">HISTORY</a>
+                <ul>
+                    <li><a href="#Link" title="Link ">Link</a></li>
+                    <li><a href="#Link" title="Link">Link</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#Link" title="Link">PROJECT</a>
+                <ul>
+                    <li><a href="#Link" title="Link">Link</a></li>
+                    <li><a href="#Link" title="Link">Link</a></li>
+                    <li>
+                        <a href="#Link" title="Link">Link >></a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                        </ul>
+
+
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#Link" title="Link">PHOTO</a>
+                <ul>
+                    <li><a href="#Link" title="Link">Link</a></li>
+                    <li><a href="#Link" title="Link">Link</a></li>
+                    <li><a href="#Link" title="Link">Link</a></li>
+                    <li><a href="#Link" title=" Link"> Link</a></li>
+                </ul>
+            </li>
+            <li><a href="#Link" title="Link">BOARD</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div id="header container">
+            <div id="container">
+                <div style="text-align:center">
+                    <br /><br />
+                    JARVIS
+                </div>
+
+                <div id="small">
+                    안녕하세요, 주인님. <br /><br /><br /><br />
+                </div>
+            </div>
+
+            <div id="login">
+                여기는 로그인 창 <br /><br />
+                <h1>
+
+                </h1>
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+    <section></section>
+
+
+    <footer>
+
+        <div id="footer_wrap" class="div-wrap">
+            <div id="footer" class="div-cont">
+
+                <div id="fcopyright">
+                    <em> <br /><br />JARVIS</em>&nbsp;&nbsp;
+                    <address>
+                        52828
+                        경남 진주시 진주대로 501 경상대학교  공과대학 407동
+                    </address>
+                    <p class="tel">
+                        TEL. 010-xxxx-xxxx
+                        &nbsp;&nbsp;&nbsp;E-mail. kakired121@naver.com
+                    </p>
+                    <p class="copyright"> Copyright@GNU All rights Reserved  <br /> <br /><br /></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+</body>
+</html>
