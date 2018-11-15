@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400i|Bangers|Oleo+Script+Swash+Caps|Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
     <link rel="stylesheet" href="banner.css">
-    <link rel="stylesheet" href="banner.css">
+    
 
     <style>
         header {
@@ -25,12 +25,13 @@
         }
 
         footer {
-            font-family: font-family: 'Open Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             width: 100%;
             background-color: #f6eded;
             border: 3px solid#808080;
             text-align: center;
-            line-height: 200px height: 200px;
+            line-height: 200px 
+            height: 200px;
             font-size: 80%;
         }
     </style>
@@ -56,7 +57,7 @@
                 top: 0;
                 width: 100%;
                 background: #2f3b3f;
-            } 
+            }
 
             .menu {
                 width: 100%;
@@ -159,15 +160,17 @@
                 background-size: 18px 18px;
                 background-position: 97% center;
                 border-radius: 50px;
-                border: 1px solid #575756;
+                border: 1px solid gray;
                 transition: all 250ms ease-in-out;
                 backface-visibility: hidden;
                 transform-style: preserve-3d;
+
+
             }
 
             ::placeholder {
 
-                color: color(#575756 a(0.8));
+                color: color(gray a(0.8));
                 text-transform: uppercase;
                 letter-spacing: 1.5px;
             }
@@ -245,6 +248,7 @@
                                     </li>
                                 </ul>
 
+
                             </li>
                         </ul>
                     </li>
@@ -281,9 +285,7 @@
                 </form>
 
             </ul>
-
         </nav>
-
         <header>
             <div style="text-align:center">
                 <br />
