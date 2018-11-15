@@ -2,7 +2,7 @@
 .banner1{
     box-sizing: border-box;
     margin: 5px;
-    width: 700px;
+    width: 1500px;
     height: 60px;
     padding: auto;
    
