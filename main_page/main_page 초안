@@ -56,7 +56,7 @@
                 top: 0;
                 width: 100%;
                 background: #2f3b3f;
-            }
+            } 
 
             .menu {
                 width: 100%;
