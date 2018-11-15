@@ -1,0 +1,13 @@
+
+.banner1{
+    box-sizing: border-box;
+    margin: 5px;
+    width: 700px;
+    height: 60px;
+    padding: auto;
+   
+    border: 0.5px solid rgb(196, 196, 196);
+    background-color: transparent;
+    display: block;
+    
+}
