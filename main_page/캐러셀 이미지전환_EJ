@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding School</title>
+  <link rel="stylesheet" href="css/style-carousel.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+</head>
+<body>
+
+  <!-- 내비게이션 -->
+
+
+   
+  <!-- 헤더 -->  
+  <section>
+    <div class="wrapper">
+      <div class="banner">
+        <div class="bxslider">
+          <div><img src="images/top-1.jpg"></div>
+          <div><img src="images/top-2.jpg"></div>
+          <div><img src="images/top-3.jpg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  
+
+
+
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  
+  <script>
+    $(function() {
+			var trigger = $('#trigger');
+			var menu = $('nav ul');
+			$(trigger).on('click', function (e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+      $('.bxslider').bxSlider({
+        auto:true,
+        autoHover: true,
+      });
+    });
+  </script>
+</body>
+</html>
