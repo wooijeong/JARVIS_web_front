@@ -11,7 +11,7 @@ Front end
 
 1. main_page : 초안 완성 - 수정 
 2. boarder : 작업 중 (EJ)
-3. hsitory : 작업 중 (IJ)
+3. history : 작업 중 (IJ)
 4. notice : 작업 중 (EJ)
 
 
